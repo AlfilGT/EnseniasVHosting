@@ -1,0 +1,55 @@
+[02-Oct-2018 08:28:08 Europe/Madrid] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'voxgtsun_root'@'localhost' to database 'voxgtsun_enseniasbd' in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 08:28:08 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 8
+[02-Oct-2018 08:28:08 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 10
+[02-Oct-2018 08:28:13 Europe/Madrid] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'voxgtsun_root'@'localhost' to database 'voxgtsun_enseniasbd' in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 08:28:13 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 8
+[02-Oct-2018 08:28:13 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 10
+[02-Oct-2018 08:28:16 Europe/Madrid] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'voxgtsun_root'@'localhost' to database 'voxgtsun_enseniasbd' in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 08:28:16 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 8
+[02-Oct-2018 08:28:16 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 10
+[02-Oct-2018 08:28:23 Europe/Madrid] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'voxgtsun_root'@'localhost' to database 'voxgtsun_enseniasbd' in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 08:28:23 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 8
+[02-Oct-2018 08:28:23 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 10
+[02-Oct-2018 08:32:53 Europe/Madrid] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 08:32:53 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/conexion.php on line 13
+[02-Oct-2018 08:35:13 Europe/Madrid] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'voxgtsun_root'@'localhost' to database 'voxgtsun_enseniasbd' in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 08:35:13 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/conexion.php on line 13
+[02-Oct-2018 08:40:11 Europe/Madrid] PHP Warning:  file_get_contents(http://localhost/deletreo.php?txt=jose): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/voxgtsun/public_html/peticion.php on line 33
+[02-Oct-2018 08:40:11 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 08:51:03 Europe/Madrid] PHP Warning:  file_get_contents(http://localhost/deletreo.php?txt=jose): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/voxgtsun/public_html/peticion.php on line 33
+[02-Oct-2018 08:51:03 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 08:51:18 Europe/Madrid] PHP Warning:  file_get_contents(http://localhost/deletreo.php?txt=realizando): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/voxgtsun/public_html/peticion.php on line 33
+[02-Oct-2018 08:51:18 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 08:51:18 Europe/Madrid] PHP Warning:  file_get_contents(http://localhost/deletreo.php?txt=peticion): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/voxgtsun/public_html/peticion.php on line 33
+[02-Oct-2018 08:51:18 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 09:05:28 Europe/Madrid] PHP Warning:  file_get_contents(http://localhost/deletreo.php?txt=desde): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/voxgtsun/public_html/peticion.php on line 33
+[02-Oct-2018 09:05:28 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 09:05:28 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 09:05:28 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 09:05:28 Europe/Madrid] PHP Warning:  file_get_contents(http://localhost/deletreo.php?txt=falle): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/voxgtsun/public_html/peticion.php on line 33
+[02-Oct-2018 09:05:28 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 37
+[02-Oct-2018 09:07:32 Europe/Madrid] PHP Warning:  file_get_contents(deletreo.php?txt=pelicula): failed to open stream: No such file or directory in /home/voxgtsun/public_html/peticion.php on line 34
+[02-Oct-2018 09:07:32 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:07:32 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:07:32 Europe/Madrid] PHP Warning:  file_get_contents(deletreo.php?txt=licenciados): failed to open stream: No such file or directory in /home/voxgtsun/public_html/peticion.php on line 34
+[02-Oct-2018 09:07:32 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:07:39 Europe/Madrid] PHP Warning:  file_get_contents(deletreo.php?txt=tetano): failed to open stream: No such file or directory in /home/voxgtsun/public_html/peticion.php on line 34
+[02-Oct-2018 09:07:39 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:45 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:57 Europe/Madrid] PHP Warning:  array_merge(): Argument #2 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:57 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:57 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:57 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:57 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:58 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:10:58 Europe/Madrid] PHP Warning:  array_merge(): Argument #1 is not an array in /home/voxgtsun/public_html/peticion.php on line 38
+[02-Oct-2018 09:11:59 Europe/Madrid] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/voxgtsun/public_html/conexion.php on line 3
+[02-Oct-2018 09:11:59 Europe/Madrid] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 8
+[02-Oct-2018 09:11:59 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/voxgtsun/public_html/peticion.php on line 10
+[02-Oct-2018 09:30:16 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/voxgtsun/public_html/precargar.php on line 28

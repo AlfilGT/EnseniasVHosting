@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <script type="text/javascript"></script>
+  <link rel="shortcut icon" href="https://image.ibb.co/bZnnv6/favicon.png" />
+  <title> En-Se&ntilde;as | Traduce tu voz a lenguaje se&ntilde;as</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body style="background-color: #262626;">
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">  <i class="material-icons">hearing</i>En-Se&ntilde;as (BETA) | Traduce tu voz a lenguaje se&ntilde;as</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="sass.html">Inicio</a></li>
+        <!--<li><a href="badges.html">Instrucciones</a></li>-->
+        <li><a href="Views/Admin/admin.php">Administracion</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    <textarea id="h-trad-text" placeholder="Ingrese su frase a traducir" maxlength="140" class="ui-input-text ui-shadow-inset ui-body-inherit ui-corner-all" style="height: 52px; width: 90%; display:none;"></textarea>
+
+    <br>
+    <br>
+    <br>
+
+     <div class="row">
+    <div style="margin-left:25%;" class="col s12 m6">
+      <div class="card borde">
+        <div class="card-image">
+        <center>
+          <div class="ws-wrapper">
+            
+    <ul id="ws-translator">
+       
+      <li><img src="Galeria/conector_espera.jpg"/></li>
+
+    </ul>
+    
+  </div>
+  <a style="background: #ffffff;" onclick='MostrarDesde(1)' class="btn-floating  waves-effect waves-light teal darken-2"><i class="material-icons">replay</i> </a>
+  
+</center>
+<br>
+          <span class="card-title teal-text"><strong>En-Se&ntildeas</strong></span>
+       <a  id="empezar" class="btn-floating halfway-fab waves-effect waves-light teal darken-2 pulse"><i class="material-icons">mic</i> </a> 
+      
+        </div>
+
+
+
+        
+
+        <!-- Ajustes -->
+        <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a class="active" href="#test4"><b>Inicio</b></a></li>
+        <li class="tab"><a href="#test5"><b>Traducido</b></a></li>
+        <li class="tab"><a href="#test6"><b>Ajustes</b></a></li>
+        <div class="indicator  teal darken-4" style="z-index:1"></div>
+      </ul>
+
+    </div>
+    <div class="card-content teal col s12 ">
+      <div id="test4" class="white-text">
+          <p >Presiona el icono del microfono y empieza hablar</p>
+      </div>
+      <div id="test5" class="white-text">
+        <div id="ws-palabras">Aun no se ha traducido ninguna frase.</div>
+      </div>
+      <div id="test6" >
+        <div class="switch">
+          <center>
+            <label>
+              <div class="col s6">
+                <p class="white-text"> Deletrear las palabras que no encuentre. </p>
+                <a class="white-text"><b>Off</b></a>
+                <input id="deletreo" type="checkbox" checked="true">
+                <span class="lever"></span>
+                <a class="white-text"><b>On</b></a>
+              </div>
+            </label>
+            <label>
+             <div class="col s6">
+                <p class="white-text"> Mostrar dialogo de palabras traducidas </p>
+                <a class="white-text"><b>Off</b></a>
+                <input id="msjdialogo" type="checkbox" checked="true">
+                <span class="lever"></span>
+                <a class="white-text"><b>On</b></a>
+            </div>
+            </label>
+        </center>
+        </div>
+      </div>
+    </div>
+         
+      
+        <!-- Fin Ajustes -->
+      </div>
+    </div>
+  </div>
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">En-se&ntilde;as</h5>
+                <p class="grey-text text-lighten-4">Este sistema de traducci&oacuten por voz fue elaborado para mejorar la comunicaci&oacuten entre las personas sin limitaciones y las personas con limitaciones auditivas, mediante Iris, la int&eacuterprete animada desarrollada por la <a  href="http://hetah.net">Fundaci&oacuten HETAH.</a></p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Fundacion HETAH</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Nuestro facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Nuestro twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contactanos</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 En-Se&ntilde;as, derechos reservados.
+            <a class="grey-text text-lighten-4 right" href="#!">Mas links</a>
+            </div>
+          </div>
+        </footer>
+            
+<script src="js/logica.js"></script>
+<script src="js/precargar.js"></script>
+</body>
+</html>

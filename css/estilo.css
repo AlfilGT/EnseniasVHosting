@@ -1,0 +1,40 @@
+#ws-translator li {
+    max-width: 320px;
+    max-height: 240px;
+    overflow: hidden;
+}
+nav{
+    background-color: #16A086;
+}
+
+.page-footer {
+    background-color: #017C81;
+}
+.row .col.m6 {
+    width: 50%;
+    margin-left: 25%;
+    left: auto;
+    right: auto;
+}
+.borde {
+    border: solid 2px white;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.pagination li.active {
+    background-color: #16a085;
+}
+ .toast{
+      background-color: #27ae60;
+    }
+    .tabs .tab a.active {
+      
+      color: #27ae60;
+    }
+    .tabs .tab a {
+      
+      color: #2ecc71;
+    }
